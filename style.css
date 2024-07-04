@@ -132,13 +132,13 @@ section{
     -webkit-background-clip: text;
     background-position: -37.5rem 0;
     animation: homeBgText 6s linear infinite;
-    animation-delay: 1.5s; 
+    animation-delay: 2s; 
     
 }
 
 .home.show-animate .home-content .text-animate h3{
     animation: homeBgText 6s linear infinite;
-    animation-delay: 1.5s;
+    animation-delay: 2s;
 }
 
 
@@ -152,12 +152,12 @@ section{
     border-right: 2px solid var(--main-color);
     z-index: -1;
     animation: homeCursorText 6s linear infinite;
-    animation-delay: 1.5s;
+    animation-delay: 2s;
 }
 
 .home.show-animate .home-content .text-animate h3::before{
     animation: homeCursorText 6s linear infinite;
-    animation-delay: 1.5s;
+    animation-delay: 2s;
 }
 
 .home-content p {
@@ -280,7 +280,7 @@ section{
     width: 45%;
     height: 100%;
     background: transparent;
-    transition: 2s;
+    transition: 2.5s;
 }
 
 .home-imgHover:hover {
